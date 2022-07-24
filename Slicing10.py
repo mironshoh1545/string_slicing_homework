@@ -8,4 +8,6 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    return
+    if n == k:
+        k += 1
+    return s[n:k]
