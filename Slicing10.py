@@ -8,6 +8,5 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    if n == k:
-        k += 1
     return s[n:k]
+print(main('apple' , 2, 2))
