@@ -4,7 +4,7 @@ def main(s,n):
     Args:
         s(str): parameter
         n(int): parameter
-    Returns:
+    Returns: 
         str: answer
     """
     return s[-n:]
